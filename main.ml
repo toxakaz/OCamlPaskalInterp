@@ -1,2 +1,2 @@
-git let s = "Hello World x2";;
+let s = "Hello World x2";;
 Printf.printf ("%s\n") s;;
