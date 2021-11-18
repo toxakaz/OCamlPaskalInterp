@@ -8,6 +8,12 @@ module AST = struct
   type value = 
   | Num of num
   | String of string
+  | Array of array
+  and array =
+  {
+    len : int;
+    content : value list;
+  }
 
   type expr =
   | Val of value
